@@ -1,0 +1,183 @@
+@media only screen and (max-width: 1330px) {
+    .use-crypto {
+        background-image: url("img/use-crypto-decor-mobile.png");
+        background-position-x: right;
+        background-position-y: 159px;
+    }
+    .use-crypto__body {
+        flex-direction: column;
+    }
+    .use-crypto__create-loan {
+        margin-top: 22px;
+    }
+    .buy-loan {
+        background-size: 70%;
+        background-position-y: -200px;
+    }
+    .sell-loan .section-wrapper{
+        flex-direction: column-reverse;
+        align-items: baseline;
+    }
+
+}
+
+@media only screen and (max-width: 980px) {
+    .section-wrapper, .buy-loan .section-wrapper, .sell-loan .section-wrapper {
+        padding: 120px 60px 0;
+    }
+    .use-crypto__create-loan--mob {
+        display: initial;
+    }
+    .use-crypto__create-loan--desc {
+        display: none;
+    }
+    .buy-loan {
+        background-size: 70%;
+        background-position-y: 0px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .main-banner .section-wrapper {
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .create-loan .section-wrapper {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section-title {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 29px;
+
+    }
+    .styled-list {
+        margin-top: 26px;
+        gap: 18px;
+    }
+    .styled-list > div {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14px;
+    }
+
+    .styled-list > div::before {
+        height: 16px;
+        width: 16px;
+        margin-right: 18px;
+    }
+
+    .main-banner__title {
+        font-size: 50px;
+    }
+
+    .use-crypto__icons img{
+        width: 60px;
+    }
+    .use-crypto__body {
+        margin-top: 44px;
+    }
+    .create-loan__title {
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 29px;
+        text-align: center;
+    }
+    .buy-loan {
+        background-image: url("img/buy-loan-decor-mobile.png");
+        background-size: initial;
+        background-position-y: -40px;
+        background-position-x: 0px;
+    }
+    .buy-loan__btn {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .middle-blue-btn {
+        height: 44px;
+        padding: 0  21px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 12px;
+        text-align: center;
+
+    }
+    .section-wrapper, .buy-loan .section-wrapper, .sell-loan .section-wrapper {
+        padding: 52px 20px 0;
+    }
+
+    .main-banner {
+        height: 640px;
+    }
+
+    .main-banner__logo {
+        width: 86px;
+    }
+
+    .main-banner__title {
+        margin-top: 122px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+    }
+
+    .main-banner__description {
+        font-family: Helvetica;
+        font-size: 16px;
+        /*font-weight: 400;*/
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+    .main-banner__btn {
+        margin-top: 34px;
+        height: 44px;
+        font-family: Porter;
+        font-size: 14px;
+        line-height: 12px;
+    }
+
+    .create-loan {
+        margin-top: 52px;
+    }
+    .create-loan .section-wrapper {
+        padding: 52px 34px;
+    }
+    .buy-loan__table {
+        margin-top: 32px;
+    }
+    .buy-loan {
+        background-position-y: -105px;
+        background-position-x: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .use-crypto__title-wrap {
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .use-crypto__icons {
+        flex-direction: column;
+        gap: 22px;
+    }
+    .use-crypto__icons__block {
+        display: flex;
+        gap: 14px;
+    }
+    .use-crypto__icons img{
+        width: 56px;
+    }
+    .use-crypto__icons__text {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 34px;
+    }
+}
