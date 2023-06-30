@@ -14,26 +14,45 @@
         background-size: 70%;
         background-position-y: -200px;
     }
+    .sell-loan {
+        background-image: url("img/sell-loan-decor-mobile.png");
+        background-position-x: right;
+        background-position-y: 120px;
+
+    }
     .sell-loan .section-wrapper{
         flex-direction: column-reverse;
         align-items: baseline;
     }
-
 }
 
 @media only screen and (max-width: 980px) {
     .section-wrapper, .buy-loan .section-wrapper, .sell-loan .section-wrapper {
         padding: 120px 60px 0;
     }
+    /*todo delete this*/
     .use-crypto__create-loan--mob {
         display: initial;
     }
+    /*todo delete this*/
     .use-crypto__create-loan--desc {
         display: none;
     }
     .buy-loan {
         background-size: 70%;
         background-position-y: 0px;
+    }
+    /*todo delete this*/
+    .sell-loan__form--mob {
+        display: initial;
+    }
+    /*todo delete this*/
+    .sell-loan__form--desc {
+        display: none;
+    }
+    .footer .section-wrapper {
+        flex-direction: column;
+        padding: 0 64px;
     }
 }
 
@@ -52,7 +71,11 @@
         font-size: 22px;
         font-weight: 500;
         line-height: 29px;
-
+    }
+    .section-description {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19px;
     }
     .styled-list {
         margin-top: 26px;
@@ -95,6 +118,62 @@
     .buy-loan__btn {
         display: none;
     }
+
+    .share-link__block {
+        gap: 26px;
+    }
+    .share-link__triangle {
+        left: -8px;
+        top: 22px;
+        transform: scale(1, 0.6) rotate(45deg);
+    }
+    .share-link__block__img {
+        width: 56px;
+    }
+    .share-link__block__table .header {
+        height: 24px;
+        font-size: 7px;
+        font-weight: 700;
+        line-height: 9px;
+    }
+    .share-link__block__table .body {
+        height: 42px;
+        font-size: 7px;
+        font-weight: 400;
+        line-height: 9px;
+    }
+    .share-link__block__table td {
+        padding-right: 33px;
+    }
+    .share-link__block__table .details{
+        padding-right: 12px;
+        font-size: 7px;
+        font-weight: 400;
+        line-height: 9px;
+
+    }
+    .copy-link img, .share-twitter img {
+        width: 9px;
+    }
+
+    .footer__content {
+        flex-direction: column;
+    }
+    .social-links__block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .social-links__block .logo-white{
+        height: 17px;
+    }
+    .social-links {
+        margin-top: 0;
+        gap: 10px;
+    }
+    .social-links img {
+        width: 22px;
+    }
 }
 
 @media only screen and (max-width: 660px) {
@@ -133,7 +212,6 @@
         line-height: 22px;
         letter-spacing: 0em;
         text-align: left;
-
     }
 
     .main-banner__btn {
@@ -156,6 +234,28 @@
     .buy-loan {
         background-position-y: -105px;
         background-position-x: 0px;
+    }
+    .footer {
+        margin-top: 52px;
+    }
+    .footer .section-wrapper {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .footer__content {
+        margin: 29px 0 26px;
+        gap: 26px;
+    }
+    .footer__content__description {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 16px;
+
+    }
+    .copyright {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 22px;
     }
 }
 

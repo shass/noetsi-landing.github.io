@@ -380,11 +380,21 @@
     flex-wrap: wrap;
     gap: 32px;
 }
+/*todo delete this*/
+.sell-loan__form--desc, sell-loan__form--mob {
+    width: 100%;
+}
+/*todo delete this*/
+.sell-loan__form--mob {
+    display: none;
+}
 
 /*share-link*/
 
 .share-link .section-wrapper {
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 32px;
 }
 
 .share-link__block {
@@ -394,8 +404,22 @@
 }
 
 .share-link__block__table__wrap {
+    position: relative;
     border-radius: 20px;
     box-shadow: 0 0 16px 0 #00000012;
+}
+
+.share-link__triangle {
+    position: absolute;
+    background: white;
+    left: -9px;
+    top: 39px;
+    transform: scale(1, 0.7) rotate(45deg);
+    z-index: 0;
+    box-shadow: -14px 19px 20px 0px #00000012;
+    display: block;
+    width: 18px;
+    height: 18px;
 }
 
 .share-link__block__table {
@@ -411,11 +435,16 @@
     line-height: 14px;
     letter-spacing: 0em;
     text-align: left;
-
 }
 
 .share-link__block__table .body {
     height: 67px;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
 .share-link__block__table tr td:first-child {
@@ -439,7 +468,6 @@
     line-height: 14px;
     letter-spacing: 0em;
     text-align: left;
-
 }
 .share-link__block__table .copy-link{
     padding-right: 22px;
@@ -452,9 +480,11 @@
 /*footer*/
 .footer {
     background: var(--middle-blue);
+    margin-top: 120px;
 }
 .footer .section-wrapper {
     flex-direction: column;
+    padding: 0 94px;
 }
 .footer__content {
     margin: 54px 0 64px;
@@ -465,6 +495,7 @@
     display: flex;
     gap: 15px;
     margin-top: 43px;
+    font-size: 0;
 }
 .social-links img {
     width: 32px;
