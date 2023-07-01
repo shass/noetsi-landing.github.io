@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1330px) {
     .use-crypto {
-        background-image: url("img/use-crypto-decor-mobile.png");
+        background-image: url("img/use-crypto-decor-mobile.svg");
         background-position-x: right;
         background-position-y: 159px;
     }
@@ -10,7 +10,7 @@
     }
 
     .use-crypto__create-loan {
-        margin-top: 22px;
+        margin-top: 2px;
     }
 
     .buy-loan {
@@ -19,10 +19,9 @@
     }
 
     .sell-loan {
-        background-image: url("img/sell-loan-decor-mobile.png");
+        background-image: url("img/sell-loan-decor-mobile.svg");
         background-position-x: right;
         background-position-y: 120px;
-
     }
 
     .sell-loan .section-wrapper {
@@ -38,7 +37,7 @@
 
     /*todo delete this*/
     .use-crypto__create-loan--mob {
-        display: initial;
+        display: block;
     }
 
     /*todo delete this*/
@@ -54,6 +53,10 @@
     /*todo delete this*/
     .sell-loan__form--mob {
         display: initial;
+    }
+
+    .sell-loan__form {
+        width: 100%;
     }
 
     /*todo delete this*/
@@ -96,12 +99,8 @@
     }
 
     .styled-list > div {
-        font-family: Porter;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 34px;
-        letter-spacing: 0em;
-        text-align: left;
+        font-size: 14px;
+        line-height: 14px;
     }
 
     .styled-list > div::before {
@@ -122,6 +121,10 @@
         margin-top: 44px;
     }
 
+    .use-crypto__how-submit__list li {
+        font-size: 14px;
+    }
+
     .create-loan__title {
         font-size: 22px;
         line-height: 29px;
@@ -129,7 +132,7 @@
     }
 
     .buy-loan {
-        background-image: url("img/buy-loan-decor-mobile.png");
+        background-image: url("img/buy-loan-decor-mobile.svg");
         background-size: initial;
         background-position-y: -40px;
         background-position-x: 0px;
@@ -304,6 +307,7 @@
 }
 
 @media only screen and (max-width: 600px) {
+
     .use-crypto__title-wrap {
         flex-direction: column;
         align-items: baseline;
@@ -326,5 +330,9 @@
     .use-crypto__icons__text {
         font-size: 14px;
         line-height: 34px;
+    }
+
+    .use-crypto__how-submit {
+        min-width: initial;
     }
 }

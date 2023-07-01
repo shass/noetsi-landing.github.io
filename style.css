@@ -105,7 +105,7 @@
 
 .styled-list > div {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     font-family: Porter;
     font-size: 20px;
     font-weight: 500;
@@ -122,7 +122,7 @@
     width: 24px;
     height: 24px;
     margin-right: 42px;
-    background-image: url("img/list-decor.png");;
+    background-image: url("img/list-decor.svg");;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -234,7 +234,7 @@
 
 /*use-crypto*/
 .use-crypto {
-    background-image: url("img/use-crypto-decor.png");
+    background-image: url("img/use-crypto-decor.svg");
     background-repeat: no-repeat;
     background-position-y: -100px;
 }
@@ -279,11 +279,13 @@
     display: flex;
     justify-content: space-between;
     margin-top: 64px;
+    gap: 20px;
     /*background: transparent;*/
 }
 
 .use-crypto__how-submit {
-    max-width: 500px; /*todo уточнить*/
+    max-width: 500px;
+    min-width: 439px;
     padding: 21px 23px;
     border-radius: 20px;
     box-shadow: 0 0 16px 0 #00000012;
@@ -321,10 +323,21 @@
     text-align: left;
 }
 
+.use-crypto__create-loan--desc, .use-crypto__create-loan--mob {
+    padding: 21px 23px;
+    box-shadow: 0 0 16px 0 #00000012;
+    border-radius: 20px;
+}
+
+.use-crypto__create-loan--mob {
+    padding: 21px 17px;
+}
+
 /*todo delete this*/
 .use-crypto__create-loan img {
     width: 100%;
 }
+
 /*todo delete this*/
 .use-crypto__create-loan--mob {
     display: none;
@@ -334,7 +347,7 @@
 
 .create-loan {
     margin-top: 120px;
-    background-image: url("img/create-loan-bg.png");
+    background-image: url("img/create-loan-bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -364,7 +377,7 @@
 /*buy-loan*/
 
 .buy-loan {
-    background-image: url(img/buy-loan-decor.png);
+    background-image: url(img/buy-loan-decor.svg);
     background-repeat: no-repeat;
     background-position-y: -410px;
     background-position-x: right;
@@ -387,7 +400,11 @@
 
 .buy-loan__table {
     margin-top: 64px;
+    padding-bottom: 14px;
     width: 100%;
+    box-shadow: 0px 0px 16px 0px #00000012;
+    border-radius: 20px;
+    background: white;
 }
 
 /*todo delete this*/
@@ -398,7 +415,7 @@
 /*sell-loan*/
 
 .sell-loan {
-    background-image: url("img/sell-loan-decor.png");
+    background-image: url("img/sell-loan-decor.svg");
     background-repeat: no-repeat;
     background-position-x: 0px;
     background-position-y: -238px;
@@ -407,14 +424,16 @@
 .sell-loan .section-wrapper {
     margin-top: 0;
     padding-top: 120px;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 32px;
+    justify-content: flex-start;
+    /*flex-wrap: wrap;*/
+    gap: 64px;
 }
 
 /*todo delete this*/
-.sell-loan__form--desc, sell-loan__form--mob {
+.sell-loan__form--desc, .sell-loan__form--mob {
     width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 16px 0px #00000012;
 }
 
 /*todo delete this*/
@@ -506,6 +525,7 @@
 }
 
 .share-link__block__table .copy-link {
+    text-align: center;
     padding-right: 22px;
     cursor: pointer;
 }
