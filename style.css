@@ -12,13 +12,13 @@
 
 @font-face {
     font-weight: 700;
-    font-family: Porter;
+    font-family: Helvetica;
     src: url("fonts/Helvetica/helvetica_bold.otf");
 }
 
 @font-face {
-    font-weight: 500;
-    font-family: Porter;
+    font-weight: 400;
+    font-family: Helvetica;
     src: url("fonts/Helvetica/helvetica_regular.otf");
 }
 
@@ -135,13 +135,14 @@
 }
 
 .middle-blue-btn {
-    padding: 0 37px 0 35px;
+    /*для Porter делаю отступ снизу 4px,тк не выравнивается по центру*/
+    padding: 0 37px 4px 35px;
     height: 62px;
     background: var(--middle-blue);
     outline: none;
     border: none;
     border-radius: 60px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     color: white;
     cursor: pointer;
     transition: 0.3s ease;
@@ -161,8 +162,8 @@
 .main-container {
     margin: 0 auto;
     width: 100%;
-    max-width: 1920px;
-    overflow: hidden;
+    /*max-width: 1920px;*/
+    /*overflow: hidden;*/
 }
 
 .section-wrapper {
