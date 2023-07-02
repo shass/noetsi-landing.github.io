@@ -99,7 +99,8 @@
     }
 
     .styled-list > div {
-        font-size: 14px;
+        align-items: center;
+        font-size: 15px;
         line-height: 14px;
     }
 
@@ -139,7 +140,7 @@
     }
 
     .buy-loan__btn {
-        display: none;
+        margin-top: 34px;
     }
 
     .share-link__block {
@@ -320,6 +321,7 @@
 
     .use-crypto__icons__block {
         display: flex;
+        align-items: center;
         gap: 14px;
     }
 
@@ -328,6 +330,7 @@
     }
 
     .use-crypto__icons__text {
+        margin-top: 0;
         font-size: 14px;
         line-height: 34px;
     }
