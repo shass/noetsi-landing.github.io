@@ -105,7 +105,7 @@
 
 .styled-list > div {
     display: flex;
-    align-items: baseline;
+    align-items: flex-end;
     font-family: Porter;
     font-size: 20px;
     font-weight: 500;
@@ -121,7 +121,7 @@
     display: block;
     width: 24px;
     height: 24px;
-    margin-right: 42px;
+    margin-right: 18px;
     background-image: url("img/list-decor.svg");;
     background-repeat: no-repeat;
     background-size: cover;
