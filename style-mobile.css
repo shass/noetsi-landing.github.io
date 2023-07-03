@@ -214,7 +214,7 @@
 @media only screen and (max-width: 660px) {
     .middle-blue-btn {
         height: 44px;
-        padding: 2px 21px;
+        padding: 2px 21px 0;
         font-size: 14px;
         font-weight: 700;
         line-height: 12px;
