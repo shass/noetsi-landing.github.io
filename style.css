@@ -135,8 +135,7 @@
 }
 
 .middle-blue-btn {
-    /*для Porter делаю отступ снизу 4px,тк не выравнивается по центру*/
-    padding: 0 37px 4px 35px;
+    padding: 0 37px 0 35px;
     height: 62px;
     background: var(--middle-blue);
     outline: none;
@@ -153,6 +152,14 @@
     line-height: 18px;
     letter-spacing: 0em;
     text-align: center;
+}
+
+.middle-blue-btn div {
+    color: white;
+    height: 18px;
+    /*test*/
+    height: 15px;
+    line-height: 9px;
 }
 
 .middle-blue-btn:hover {
