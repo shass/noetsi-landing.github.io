@@ -135,7 +135,7 @@
 }
 
 .middle-blue-btn {
-    padding: 0 37px 0 35px;
+    padding: 0 37px 4px 35px;
     height: 62px;
     background: var(--middle-blue);
     outline: none;
@@ -146,7 +146,7 @@
     cursor: pointer;
     transition: 0.3s ease;
     white-space: nowrap;
-    font-family: Helvetica;
+    font-family: Porter;
     font-size: 18px;
     font-weight: 700;
     line-height: 18px;
