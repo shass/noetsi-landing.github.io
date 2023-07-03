@@ -146,20 +146,21 @@
     cursor: pointer;
     transition: 0.3s ease;
     white-space: nowrap;
-    font-family: Porter;
+    font-family: Helvetica;
     font-size: 18px;
     font-weight: 700;
     line-height: 18px;
     letter-spacing: 0em;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .middle-blue-btn div {
     color: white;
     height: 18px;
     /*test*/
-    height: 15px;
-    line-height: 9px;
+    /*height: 15px;*/
+    /*line-height: 9px;*/
 }
 
 .middle-blue-btn:hover {
