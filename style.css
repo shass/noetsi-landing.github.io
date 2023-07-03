@@ -135,8 +135,7 @@
 }
 
 .middle-blue-btn {
-    /*Шрифт имее отступ сверху, компенсирую его паддингм 4 снизу*/
-    padding: 0 37px 4px 35px;
+    padding: 0 37px 0 35px;
     height: 62px;
     background: var(--middle-blue);
     outline: none;
@@ -148,9 +147,8 @@
     transition: 0.3s ease;
     white-space: nowrap;
     font-family: Porter;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 18px;
     letter-spacing: 0em;
     text-align: center;
     text-transform: uppercase;
@@ -520,6 +518,7 @@
 
 .share-link__block__table td {
     padding-right: 50px;
+    vertical-align: middle;
 }
 
 .share-link__block__table .details {
