@@ -126,6 +126,10 @@
         margin-top: 44px;
     }
 
+    .use-crypto__how-submit__list {
+        padding: 0 0 0 23px;
+    }
+
     .use-crypto__how-submit__list li {
         font-size: 14px;
         line-height: 16px;
@@ -358,7 +362,8 @@
     .sell-loan .section-description {
         max-width: 255px;
     }
-    .share-link .section-description{
+
+    .share-link .section-description {
         max-width: 172px;
     }
 }

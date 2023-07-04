@@ -317,10 +317,11 @@
 
 .use-crypto__how-submit__list {
     margin-top: 26px;
+    padding: 0 72px 0 23px;
 }
 
 .use-crypto__how-submit__list li {
-    list-style: decimal inside;
+    list-style: decimal;
     font-family: Helvetica;
     font-size: 18px;
     font-weight: 400;
@@ -328,6 +329,7 @@
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
+    color: #575757;
 }
 .use-crypto__how-submit__list li:not(:last-child) {
     padding-bottom: 35px;
