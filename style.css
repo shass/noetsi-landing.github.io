@@ -320,7 +320,7 @@
 }
 
 .use-crypto__how-submit__list li {
-    list-style-position: inside;
+    list-style: decimal inside;
     font-family: Helvetica;
     font-size: 18px;
     font-weight: 400;
@@ -434,6 +434,10 @@
     justify-content: flex-start;
     /*flex-wrap: wrap;*/
     gap: 64px;
+}
+
+.sell-loan__form {
+    max-width: 46%;
 }
 
 /*todo delete this*/

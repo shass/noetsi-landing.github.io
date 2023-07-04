@@ -28,6 +28,10 @@
         flex-direction: column-reverse;
         align-items: baseline;
     }
+
+    .sell-loan__form {
+        max-width: initial;
+    }
 }
 
 @media only screen and (max-width: 980px) {
