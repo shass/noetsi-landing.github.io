@@ -21,7 +21,7 @@
     .sell-loan {
         background-image: url("img/sell-loan-decor-mobile.svg");
         background-position-x: right;
-        background-position-y: 120px;
+        background-position-y: 75px;
     }
 
     .sell-loan .section-wrapper {
@@ -128,6 +128,11 @@
 
     .use-crypto__how-submit__list li {
         font-size: 14px;
+        line-height: 16px;
+    }
+
+    .use-crypto__how-submit__list li:not(:last-child) {
+        padding-bottom: 22px;
     }
 
     .create-loan__title {
@@ -186,6 +191,7 @@
         line-height: 9px;
 
     }
+
     .share-link__block__table .copy-link {
         padding-right: 17px;
     }
@@ -244,7 +250,7 @@
     .main-banner__title {
         margin-top: 122px;
         font-size: 32px;
-        font-weight: 700;
+        font-weight: 500;
         line-height: 39px;
     }
 
@@ -348,24 +354,38 @@
     }
 }
 
+@media only screen and (max-width: 360px) {
+    .sell-loan .section-description {
+        max-width: 255px;
+    }
+    .share-link .section-description{
+        max-width: 172px;
+    }
+}
+
 @media only screen and (max-width: 355px) {
     .share-link__block__table tr td:first-child {
         padding-left: 18px;
     }
+
     .share-link__block__table td {
         padding-right: 18px;
     }
+
     .share-link__block__table tr td:last-child {
         padding-right: 18px;
     }
 }
+
 @media only screen and (max-width: 330px) {
     .share-link__block__table tr td:first-child {
         padding-left: 14px;
     }
+
     .share-link__block__table td {
         padding-right: 14px;
     }
+
     .share-link__block__table tr td:last-child {
         padding-right: 14px;
     }
