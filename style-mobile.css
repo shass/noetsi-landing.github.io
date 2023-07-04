@@ -172,15 +172,18 @@
     }
 
     .share-link__block__table td {
-        padding-right: 33px;
+        padding-right: 24px;
     }
 
     .share-link__block__table .details {
-        padding-right: 12px;
+        padding-right: 17px;
         font-size: 7px;
         font-weight: 400;
         line-height: 9px;
 
+    }
+    .share-link__block__table .copy-link {
+        padding-right: 17px;
     }
 
     .copy-link img, .share-twitter img {
@@ -338,5 +341,28 @@
 
     .use-crypto__how-submit {
         min-width: initial;
+    }
+}
+
+@media only screen and (max-width: 355px) {
+    .share-link__block__table tr td:first-child {
+        padding-left: 18px;
+    }
+    .share-link__block__table td {
+        padding-right: 18px;
+    }
+    .share-link__block__table tr td:last-child {
+        padding-right: 18px;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .share-link__block__table tr td:first-child {
+        padding-left: 14px;
+    }
+    .share-link__block__table td {
+        padding-right: 14px;
+    }
+    .share-link__block__table tr td:last-child {
+        padding-right: 14px;
     }
 }
