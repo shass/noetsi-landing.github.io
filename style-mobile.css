@@ -112,6 +112,7 @@
         height: 16px;
         width: 16px;
         top: 0;
+        bottom: 3px;
     }
 
     .main-banner__title {
