@@ -103,7 +103,7 @@
     }
 
     .styled-list > div {
-        align-items: center;
+        padding-left: 34px;
         font-size: 15px;
         line-height: 14px;
     }
@@ -111,7 +111,6 @@
     .styled-list > div::before {
         height: 16px;
         width: 16px;
-        margin-right: 18px;
     }
 
     .main-banner__title {
