@@ -235,7 +235,6 @@
     .middle-blue-btn {
         height: 44px;
         line-height: 44px;
-        /*на моб. версии буквы смещены ввех, опускаю их паддингом 2*/
         padding: 0 21px;
         font-size: 14px;
         font-weight: 700;
@@ -297,7 +296,7 @@
 
     .buy-loan {
         background-position-y: -105px;
-        background-position-x: 0px;
+        background-position-x: 0;
     }
 
     .footer {

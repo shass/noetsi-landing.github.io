@@ -141,7 +141,7 @@
 
 .middle-blue-btn {
     display: inline-block;
-    padding: 0 37px 0 35px;
+    padding: 0 35px;
     height: 62px;
     line-height: 62px;
     background: var(--middle-blue);
@@ -224,7 +224,7 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 34px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
 }
 
 .main-banner__description .bold {
@@ -232,7 +232,7 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 34px;
-    letter-spacing: 0em;
+    letter-spacing: 0;
 }
 
 .main-banner__description .bold {
