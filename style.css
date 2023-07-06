@@ -140,8 +140,10 @@
 }
 
 .middle-blue-btn {
+    display: inline-block;
     padding: 0 37px 0 35px;
     height: 62px;
+    line-height: 62px;
     background: var(--middle-blue);
     outline: none;
     border: none;
@@ -154,7 +156,7 @@
     font-family: Porter;
     font-size: 16px;
     font-weight: 700;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: center;
     text-transform: uppercase;
 }
@@ -242,6 +244,7 @@
 .main-banner__btn {
     margin-top: 40px;
     height: 48px;
+    line-height: 48px;
 }
 
 /*use-crypto*/

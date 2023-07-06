@@ -234,11 +234,11 @@
 @media only screen and (max-width: 660px) {
     .middle-blue-btn {
         height: 44px;
+        line-height: 44px;
         /*на моб. версии буквы смещены ввех, опускаю их паддингом 2*/
-        padding: 2px 21px 0;
+        padding: 0 21px;
         font-size: 14px;
         font-weight: 700;
-        line-height: 12px;
         text-align: center;
     }
 
@@ -280,7 +280,7 @@
         height: 44px;
         font-family: Porter;
         font-size: 14px;
-        line-height: 12px;
+        line-height: 44px;
     }
 
     .create-loan {
