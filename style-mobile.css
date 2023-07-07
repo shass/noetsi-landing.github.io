@@ -42,7 +42,7 @@
 
     /*todo delete this*/
     .use-crypto__create-loan--mob {
-        display: block;
+        display: inline-block;
         padding: 0;
     }
 
@@ -53,7 +53,7 @@
 
     .buy-loan {
         background-size: 70%;
-        background-position-y: 0px;
+        background-position-y: 0;
     }
 
     /*todo delete this*/

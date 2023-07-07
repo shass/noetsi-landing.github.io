@@ -343,19 +343,16 @@
     padding-bottom: 35px;
 }
 
-.use-crypto__create-loan--desc, .use-crypto__create-loan--mob {
+.use-crypto__create-loan--desc,
+.use-crypto__create-loan--mob {
     padding: 21px 23px;
     box-shadow: 0 0 16px 0 #00000012;
     border-radius: 20px;
+    display: inline-block;
 }
 
 .use-crypto__create-loan--mob {
     padding: 21px 17px;
-}
-
-/*todo delete this*/
-.use-crypto__create-loan img {
-    width: 100%;
 }
 
 /*todo delete this*/
@@ -455,9 +452,8 @@
 
 /*todo delete this*/
 .sell-loan__form--desc, .sell-loan__form--mob {
-    width: 100%;
     border-radius: 20px;
-    box-shadow: 0px 0px 16px 0px #00000012;
+    box-shadow: 0 0 16px 0 #00000012;
 }
 
 /*todo delete this*/
