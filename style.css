@@ -340,7 +340,7 @@
     color: #575757;
 }
 .use-crypto__how-submit__list li:not(:last-child) {
-    padding-bottom: 35px;
+    padding-bottom: 25px;
 }
 
 .use-crypto__create-loan--desc,
@@ -577,6 +577,10 @@
     gap: 15px;
     margin-top: 43px;
     font-size: 0;
+}
+
+.social-links__block {
+    flex-shrink: 0;
 }
 
 .social-links img {
