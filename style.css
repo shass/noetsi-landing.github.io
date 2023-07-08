@@ -193,7 +193,19 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("img/main_banner_bg.svg");
+    background-image: url("img/main_banner_bg.png");
+}
+@media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and ( min--moz-device-pixel-ratio: 2),
+    only screen and ( -o-min-device-pixel-ratio: 2/1),
+    only screen and ( min-device-pixel-ratio: 2),
+    only screen and ( min-resolution: 192dpi),
+    only screen and ( min-resolution: 2dppx)
+{
+    .main-banner {
+        background-image: url("img/main_banner_bg@2x.png");
+    }
 }
 
 .main-banner .section-wrapper {
@@ -364,9 +376,21 @@
 
 .create-loan {
     margin-top: 120px;
-    background-image: url("img/create-loan-bg.svg");
+    background-image: url("img/create-loan-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and ( min--moz-device-pixel-ratio: 2),
+only screen and ( -o-min-device-pixel-ratio: 2/1),
+only screen and ( min-device-pixel-ratio: 2),
+only screen and ( min-resolution: 192dpi),
+only screen and ( min-resolution: 2dppx)
+{
+    .create-loan {
+        background-image: url("img/create-loan-bg@2x.png");
+    }
 }
 
 .create-loan .section-wrapper {
